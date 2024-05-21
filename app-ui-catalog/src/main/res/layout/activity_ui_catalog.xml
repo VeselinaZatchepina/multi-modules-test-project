@@ -6,22 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".UiCatalogActivity">
 
-    <ru.protek.designsystem.view.ExampleView
-        android:id="@+id/example_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.compose.ui.platform.ComposeView
-        android:id="@+id/example_compose"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/example_view"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

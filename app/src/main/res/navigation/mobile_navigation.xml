@@ -9,21 +9,4 @@
     <include app:graph="@navigation/medcard_navigation"/>
     <include app:graph="@navigation/profile_navigation"/>
 
-<!--    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.devgym.multimodulestestproject.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.devgym.multimodulestestproject.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.devgym.multimodulestestproject.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />-->
 </navigation>
