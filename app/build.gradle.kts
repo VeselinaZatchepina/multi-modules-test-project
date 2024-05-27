@@ -43,6 +43,7 @@ dependencies {
     implementation(projects.feature.maindashboard)
     implementation(projects.feature.medcard)
     implementation(projects.feature.profile)
+    implementation(projects.feature.lightpsp)
 
 
 

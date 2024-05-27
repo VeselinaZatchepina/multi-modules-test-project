@@ -8,5 +8,6 @@
     <include app:graph="@navigation/main_dashboard_navigation"/>
     <include app:graph="@navigation/medcard_navigation"/>
     <include app:graph="@navigation/profile_navigation"/>
+    <include app:graph="@navigation/light_psp_navigation"/>
 
 </navigation>

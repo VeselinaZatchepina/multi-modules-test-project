@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/light_psp_navigation"
+    app:startDestination="@+id/navigation_light_psp">
+
+    <fragment
+        android:id="@+id/navigation_light_psp"
+        android:name="com.devgymproject.lightpsp.LightPspFragment"
+        android:label="LightPspFragment"
+        tools:layout="@layout/fragment_light_psp">
+        <deepLink
+            app:uri="android-app://example.google.app/navigation_light_psp" />
+    </fragment>
+
+</navigation>

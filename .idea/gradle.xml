@@ -27,11 +27,14 @@
             <option value="$PROJECT_DIR$/core/socket" />
             <option value="$PROJECT_DIR$/core/ui" />
             <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/courses" />
             <option value="$PROJECT_DIR$/feature/lightpsp" />
             <option value="$PROJECT_DIR$/feature/maindashboard" />
             <option value="$PROJECT_DIR$/feature/medcard" />
             <option value="$PROJECT_DIR$/feature/medpack" />
+            <option value="$PROJECT_DIR$/feature/pillbox" />
             <option value="$PROJECT_DIR$/feature/profile" />
+            <option value="$PROJECT_DIR$/feature/stepcounter" />
             <option value="$PROJECT_DIR$/lint" />
             <option value="$PROJECT_DIR$/pspcomponents" />
             <option value="$PROJECT_DIR$/pspcomponents/courses" />
