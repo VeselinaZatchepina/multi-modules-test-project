@@ -44,6 +44,11 @@ dependencies {
     implementation(projects.feature.medcard)
     implementation(projects.feature.profile)
     implementation(projects.feature.lightpsp)
+    implementation(projects.feature.pillbox)
+
+
+
+    implementation(libs.koin)
 
 
 

@@ -1,4 +1,4 @@
-package com.devgymproject.lightpsp
+package com.devgymproject.pillbox
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,22 +7,22 @@ import android.view.ViewGroup
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.ui.platform.ViewCompositionStrategy
-import com.devgymproject.lightpsp.databinding.FragmentLightPspBinding
+import com.devgymproject.pillbox.databinding.FragmentPillboxBinding
 import org.koin.androidx.scope.ScopeFragment
 
-class LightPspFragment : ScopeFragment() {
+class PillboxFragment : ScopeFragment() {
 
-    private var _binding: FragmentLightPspBinding? = null
+    private var _binding: FragmentPillboxBinding? = null
 
-    private val binding: FragmentLightPspBinding? get() = _binding
-    private val viewModel: LightPspViewModel by scope.inject<LightPspViewModel>()
+    private val binding: FragmentPillboxBinding? get() = _binding
+    private val viewModel: PillboxViewModel by scope.inject<PillboxViewModel>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentLightPspBinding.inflate(inflater, container, false)
+        _binding = FragmentPillboxBinding.inflate(inflater, container, false)
         return binding!!.root
     }
 
@@ -33,7 +33,7 @@ class LightPspFragment : ScopeFragment() {
             setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed)
             setContent {
                 MaterialTheme {
-                    Text(text = "This is Light Psp Dashboard")
+                    Text(text = "This is Pillbox Dashboard")
                 }
             }
         }

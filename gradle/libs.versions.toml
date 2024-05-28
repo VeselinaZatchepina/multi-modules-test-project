@@ -18,6 +18,7 @@ androidxComposeBom = "2024.05.00"
 composeMaterial3 = "1.2.1"
 activityCompose = "1.4.0"
 navigationRuntimeKtx = "2.7.7"
+koin = "3.1.5"
 
 
 [libraries]
@@ -40,6 +41,7 @@ androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
 
 
 

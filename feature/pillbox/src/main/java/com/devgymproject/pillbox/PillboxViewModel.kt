@@ -1,9 +1,9 @@
-package com.devgymproject.lightpsp
+package com.devgymproject.pillbox
 
 import androidx.lifecycle.ViewModel
 import com.devgymproject.domain.MyUseCase
 
-class LightPspViewModel(
+class PillboxViewModel(
     private val useCase: MyUseCase,
 ) : ViewModel() {
 
